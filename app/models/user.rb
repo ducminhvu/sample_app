@@ -30,6 +30,4 @@ class User < ActiveRecord::Base
   def authenticated?(remember_token)
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
-
-
 end
