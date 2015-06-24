@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "framgia.dv@gmail.com"
+  default from: "invisible.masks@gmail.com"
   layout "mailer"
 end
