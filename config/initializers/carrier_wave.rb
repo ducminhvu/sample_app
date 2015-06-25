@@ -7,5 +7,6 @@ if Rails.env.production?
       :aws_secret_access_key => '+XCYd4RUjsvfH3BxKEvUE2GWNUhPrOUznhhfzlkw'
     }
     config.fog_directory     =  'railsexample'
+    
   end
 end
